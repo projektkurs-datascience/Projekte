@@ -1,1 +1,1 @@
-Sitemap: https://JonasGrueneberg.github.io/Website_Prototype/sitemap.xml
+Sitemap: https://projektkurs-datascience.github.io/Projekte/sitemap.xml

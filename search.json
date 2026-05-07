@@ -1,38 +1,17 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Projektkurs Data Science & Business Analytics",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
     "objectID": "project_overview.html",
     "href": "project_overview.html",
     "title": "Aktuelle Projekte",
     "section": "",
-    "text": "Hier sehen sie einige Beispiele für Projekte aus den letzten Semestern.\n\n\n\n\n\n\n\n\nTestProjekt 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTestProjekt 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\nWeitere Projekte finden sie im Archiv.\nZum Archiv"
-  },
-  {
-    "objectID": "project_archive.html",
-    "href": "project_archive.html",
-    "title": "Projektarchiv",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Name\n      \n      \n        Projekttyp\n      \n      \n        Semester\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nProjekttyp\n\n\n\nSemester\n\n\n\nKategorien\n\n\n\n\n\n\n\n\nTestProjekt 1\n\n\ndescriptive\n\n\nWS 22\n\n\nUnternehmen, Insolvenz\n\n\n\n\n\n\nTestProjekt 2\n\n\ndescriptive\n\n\nWS 22\n\n\nUnternehmen, Insolvenz\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/TestProjekt-1/student_projects/blauer_löwe/blauer_löwe.html",
-    "href": "projects/TestProjekt-1/student_projects/blauer_löwe/blauer_löwe.html",
-    "title": "Blauer Löwe",
-    "section": "",
-    "text": "Screencast"
-  },
-  {
-    "objectID": "projects/TestProjekt-1/student_projects/lila_gürteltier/lila_gürteltier.html",
-    "href": "projects/TestProjekt-1/student_projects/lila_gürteltier/lila_gürteltier.html",
-    "title": "Lila Gürteltier",
-    "section": "",
-    "text": "Screencast"
-  },
-  {
-    "objectID": "projects/TestProjekt-1/student_projects/roter_affe/roter_affe.html",
-    "href": "projects/TestProjekt-1/student_projects/roter_affe/roter_affe.html",
-    "title": "Roter Affe",
-    "section": "",
-    "text": "Screencast"
+    "text": "Hier sehen sie die Projekte aus den letzten Semestern.\n\n\n\n\n\n\n\n\nFacebook (WiSe2425)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTestProjekt 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTestProjekt 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\nWeitere Projekte finden sie im Archiv.\nZum Archiv"
   },
   {
     "objectID": "projects/TestProjekt-1/TestProjekt-1_page.html",
@@ -56,6 +35,34 @@
     "text": "Weitere Ausarbeitungen\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Ausarbeitung\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nRang\n\n\n\nAusarbeitung\n\n\n\nAutor:innen\n\n\n\n\n\n\n\n\n4\n\n\nGrüne Giraffe\n\n\nHänsel, Dr. Knörz, Unknown\n\n\n\n\n\n\n5\n\n\nGelber Ochse\n\n\nMoritz, Dr Gottlieb Taft\n\n\n\n\n\n\n6\n\n\nBlauer Löwe\n\n\nMax, Genevieve Ponelle, Unknown\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "projects/TestProjekt-1/student_projects/grüne_giraffe/grüne_giraffe.html",
+    "href": "projects/TestProjekt-1/student_projects/grüne_giraffe/grüne_giraffe.html",
+    "title": "Grüne Giraffe",
+    "section": "",
+    "text": "Screencast"
+  },
+  {
+    "objectID": "projects/TestProjekt-1/student_projects/roter_affe/roter_affe.html",
+    "href": "projects/TestProjekt-1/student_projects/roter_affe/roter_affe.html",
+    "title": "Roter Affe",
+    "section": "",
+    "text": "Screencast"
+  },
+  {
+    "objectID": "projects/TestProjekt-1/student_projects/gelber_ochse/gelber_ochse.html",
+    "href": "projects/TestProjekt-1/student_projects/gelber_ochse/gelber_ochse.html",
+    "title": "Gelber Ochse",
+    "section": "",
+    "text": "Screencast"
+  },
+  {
+    "objectID": "projects/Facebook (WiSe2425)/student_projects/acid_strongwilled_bug/acid_strongwilled_bug.html",
+    "href": "projects/Facebook (WiSe2425)/student_projects/acid_strongwilled_bug/acid_strongwilled_bug.html",
+    "title": "Acid Strongwilled Bug",
+    "section": "",
+    "text": "Screencast"
+  },
+  {
     "objectID": "projects/TestProjekt-2/student_projects/blauer_löwe/blauer_löwe.html",
     "href": "projects/TestProjekt-2/student_projects/blauer_löwe/blauer_löwe.html",
     "title": "Blauer Löwe",
@@ -70,9 +77,9 @@
     "text": "Screencast\n\n\n\nAusarbeitung"
   },
   {
-    "objectID": "projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html",
-    "href": "projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html",
-    "title": "Roter Affe",
+    "objectID": "projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html",
+    "href": "projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html",
+    "title": "Pinker Panther",
     "section": "",
     "text": "Screencast\n\n\n\nAusarbeitung"
   },
@@ -84,16 +91,16 @@
     "text": "Screencast\n\n\n\nAusarbeitung"
   },
   {
-    "objectID": "projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html",
-    "href": "projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html",
-    "title": "Grüne Giraffe",
+    "objectID": "projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html",
+    "href": "projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html",
+    "title": "Roter Affe",
     "section": "",
     "text": "Screencast\n\n\n\nAusarbeitung"
   },
   {
-    "objectID": "projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html",
-    "href": "projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html",
-    "title": "Pinker Panther",
+    "objectID": "projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html",
+    "href": "projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html",
+    "title": "Grüne Giraffe",
     "section": "",
     "text": "Screencast\n\n\n\nAusarbeitung"
   },
@@ -119,18 +126,25 @@
     "text": "Weitere Ausarbeitungen\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Ausarbeitung\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nRang\n\n\n\nAusarbeitung\n\n\n\nAutor:innen\n\n\n\n\n\n\n\n\n4\n\n\nGrüne Giraffe\n\n\nHänsel, Dr. Knörz, Unknown\n\n\n\n\n\n\n5\n\n\nGelber Ochse\n\n\nMoritz, Dr Gottlieb Taft\n\n\n\n\n\n\n6\n\n\nBlauer Löwe\n\n\nMax, Genevieve Ponelle, Unknown\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/TestProjekt-1/student_projects/gelber_ochse/gelber_ochse.html",
-    "href": "projects/TestProjekt-1/student_projects/gelber_ochse/gelber_ochse.html",
-    "title": "Gelber Ochse",
+    "objectID": "projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html",
+    "href": "projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html",
+    "title": "Facebook (WiSe2425)",
     "section": "",
-    "text": "Screencast"
+    "text": "Analyse von Netzwerkdaten aus Facebook und wie Personen diese Netzwerke im Job nutzen."
   },
   {
-    "objectID": "projects/TestProjekt-1/student_projects/grüne_giraffe/grüne_giraffe.html",
-    "href": "projects/TestProjekt-1/student_projects/grüne_giraffe/grüne_giraffe.html",
-    "title": "Grüne Giraffe",
-    "section": "",
-    "text": "Screencast"
+    "objectID": "projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html#top-3-ausarbeitungen",
+    "href": "projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html#top-3-ausarbeitungen",
+    "title": "Facebook (WiSe2425)",
+    "section": "Top 3 Ausarbeitungen",
+    "text": "Top 3 Ausarbeitungen\n\n\n\n\n\n\n\n\nAcid Strongwilled Bug\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html#weitere-ausarbeitungen",
+    "href": "projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html#weitere-ausarbeitungen",
+    "title": "Facebook (WiSe2425)",
+    "section": "Weitere Ausarbeitungen",
+    "text": "Weitere Ausarbeitungen\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Ausarbeitung\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nRang\n\n\n\nAusarbeitung\n\n\n\nAutor:innen\n\n\n\n\n\n\n\n\n4\n\n\nAcid Strongwilled Bug\n\n\nUnknown, aaronlutz2001, denizdoenmez\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/TestProjekt-1/student_projects/pinker_panther/pinker_panther.html",
@@ -140,17 +154,31 @@
     "text": "Screencast"
   },
   {
+    "objectID": "projects/TestProjekt-1/student_projects/lila_gürteltier/lila_gürteltier.html",
+    "href": "projects/TestProjekt-1/student_projects/lila_gürteltier/lila_gürteltier.html",
+    "title": "Lila Gürteltier",
+    "section": "",
+    "text": "Screencast"
+  },
+  {
+    "objectID": "projects/TestProjekt-1/student_projects/blauer_löwe/blauer_löwe.html",
+    "href": "projects/TestProjekt-1/student_projects/blauer_löwe/blauer_löwe.html",
+    "title": "Blauer Löwe",
+    "section": "",
+    "text": "Screencast"
+  },
+  {
+    "objectID": "project_archive.html",
+    "href": "project_archive.html",
+    "title": "Projektarchiv",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Name\n      \n      \n        Projekttyp\n      \n      \n        Semester\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nProjekttyp\n\n\n\nSemester\n\n\n\nKategorien\n\n\n\n\n\n\n\n\nTestProjekt 1\n\n\ndescriptive\n\n\nWS 22\n\n\nUnternehmen, Insolvenz\n\n\n\n\n\n\nTestProjekt 2\n\n\ndescriptive\n\n\nWS 22\n\n\nUnternehmen, Insolvenz\n\n\n\n\n\n\nFacebook (WiSe2425)\n\n\ndescriptive\n\n\nWS 24/25\n\n\nFacebook\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Projektkurs Data Science & Business Analytics",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

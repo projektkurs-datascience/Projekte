@@ -2,13 +2,7 @@
   {
     "listing": "/project_overview.html",
     "items": [
-      "/projects/TestProjekt-1/TestProjekt-1_page.html",
-      "/projects/TestProjekt-2/TestProjekt-2_page.html"
-    ]
-  },
-  {
-    "listing": "/project_archive.html",
-    "items": [
+      "/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html",
       "/projects/TestProjekt-1/TestProjekt-1_page.html",
       "/projects/TestProjekt-2/TestProjekt-2_page.html"
     ]
@@ -33,6 +27,20 @@
       "/projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html",
       "/projects/TestProjekt-2/student_projects/gelber_ochse/gelber_ochse.html",
       "/projects/TestProjekt-2/student_projects/blauer_löwe/blauer_löwe.html"
+    ]
+  },
+  {
+    "listing": "/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html",
+    "items": [
+      "/projects/Facebook (WiSe2425)/student_projects/acid_strongwilled_bug/acid_strongwilled_bug.html"
+    ]
+  },
+  {
+    "listing": "/project_archive.html",
+    "items": [
+      "/projects/TestProjekt-1/TestProjekt-1_page.html",
+      "/projects/TestProjekt-2/TestProjekt-2_page.html",
+      "/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html"
     ]
   }
 ]
