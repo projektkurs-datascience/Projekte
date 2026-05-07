@@ -2,20 +2,31 @@
   {
     "listing": "/project_overview.html",
     "items": [
-      "/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html",
-      "/projects/TestProjekt-1/TestProjekt-1_page.html",
+      "/projects/Facebook/Facebook_page.html",
       "/projects/TestProjekt-2/TestProjekt-2_page.html"
     ]
   },
   {
-    "listing": "/projects/TestProjekt-1/TestProjekt-1_page.html",
+    "listing": "/projects/Facebook/Facebook_page.html",
     "items": [
-      "/projects/TestProjekt-1/student_projects/roter_affe/roter_affe.html",
-      "/projects/TestProjekt-1/student_projects/pinker_panther/pinker_panther.html",
-      "/projects/TestProjekt-1/student_projects/lila_gürteltier/lila_gürteltier.html",
-      "/projects/TestProjekt-1/student_projects/grüne_giraffe/grüne_giraffe.html",
-      "/projects/TestProjekt-1/student_projects/gelber_ochse/gelber_ochse.html",
-      "/projects/TestProjekt-1/student_projects/blauer_löwe/blauer_löwe.html"
+      "/projects/Facebook/student_projects/dumbstruck_elegant_spreadwing/dumbstruck_elegant_spreadwing.html",
+      "/projects/Facebook/student_projects/established_enervated_louse/established_enervated_louse.html",
+      "/projects/Facebook/student_projects/unchanged_airsick_loggerheadturtle/unchanged_airsick_loggerheadturtle.html",
+      "/projects/Facebook/student_projects/unplayful_prelegislative_crocodile/unplayful_prelegislative_crocodile.html",
+      "/projects/Facebook/student_projects/acid_strongwilled_bug/acid_strongwilled_bug.html",
+      "/projects/Facebook/student_projects/bombastic_lovesick_indianpangolin/bombastic_lovesick_indianpangolin.html",
+      "/projects/Facebook/student_projects/censorious_trusting_swallowtail/censorious_trusting_swallowtail.html",
+      "/projects/Facebook/student_projects/daughterlike_lowbred_moray/daughterlike_lowbred_moray.html",
+      "/projects/Facebook/student_projects/desertlike_dark_africangoldencat/desertlike_dark_africangoldencat.html",
+      "/projects/Facebook/student_projects/gigantic_unobjective_deviltasmanian/gigantic_unobjective_deviltasmanian.html",
+      "/projects/Facebook/student_projects/gimmicky_astrakhan_siskin/gimmicky_astrakhan_siskin.html",
+      "/projects/Facebook/student_projects/heated_okay_yeti/heated_okay_yeti.html",
+      "/projects/Facebook/student_projects/inexplosive_boyish_bats/inexplosive_boyish_bats.html",
+      "/projects/Facebook/student_projects/leekgreen_lexicostatistical_squamata/leekgreen_lexicostatistical_squamata.html",
+      "/projects/Facebook/student_projects/parttime_slowmoving_rodent/parttime_slowmoving_rodent.html",
+      "/projects/Facebook/student_projects/unappreciated_weighted_bluemorphobutterfly/unappreciated_weighted_bluemorphobutterfly.html",
+      "/projects/Facebook/student_projects/uncheerful_silverish_antelope/uncheerful_silverish_antelope.html",
+      "/projects/Facebook/student_projects/unpleasing_unprofessional_spider/unpleasing_unprofessional_spider.html"
     ]
   },
   {
@@ -30,26 +41,10 @@
     ]
   },
   {
-    "listing": "/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html",
-    "items": [
-      "/projects/Facebook (WiSe2425)/student_projects/dumbstruck_elegant_spreadwing/dumbstruck_elegant_spreadwing.html",
-      "/projects/Facebook (WiSe2425)/student_projects/unchanged_airsick_loggerheadturtle/unchanged_airsick_loggerheadturtle.html",
-      "/projects/Facebook (WiSe2425)/student_projects/unplayful_prelegislative_crocodile/unplayful_prelegislative_crocodile.html",
-      "/projects/Facebook (WiSe2425)/student_projects/acid_strongwilled_bug/acid_strongwilled_bug.html",
-      "/projects/Facebook (WiSe2425)/student_projects/bombastic_lovesick_indianpangolin/bombastic_lovesick_indianpangolin.html",
-      "/projects/Facebook (WiSe2425)/student_projects/censorious_trusting_swallowtail/censorious_trusting_swallowtail.html",
-      "/projects/Facebook (WiSe2425)/student_projects/daughterlike_lowbred_moray/daughterlike_lowbred_moray.html",
-      "/projects/Facebook (WiSe2425)/student_projects/desertlike_dark_africangoldencat/desertlike_dark_africangoldencat.html",
-      "/projects/Facebook (WiSe2425)/student_projects/uncheerful_silverish_antelope/uncheerful_silverish_antelope.html",
-      "/projects/Facebook (WiSe2425)/student_projects/unpleasing_unprofessional_spider/unpleasing_unprofessional_spider.html"
-    ]
-  },
-  {
     "listing": "/project_archive.html",
     "items": [
-      "/projects/TestProjekt-1/TestProjekt-1_page.html",
       "/projects/TestProjekt-2/TestProjekt-2_page.html",
-      "/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html"
+      "/projects/Facebook/Facebook_page.html"
     ]
   }
 ]
