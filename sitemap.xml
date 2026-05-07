@@ -2,94 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/index.html</loc>
-    <lastmod>2026-05-07T20:05:01.005Z</lastmod>
+    <lastmod>2026-05-07T20:28:18.081Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/project_overview.html</loc>
-    <lastmod>2026-05-07T20:05:01.005Z</lastmod>
+    <lastmod>2026-05-07T20:28:18.081Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/TestProjekt-1_page.html</loc>
-    <lastmod>2026-05-07T20:06:26.514Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.030Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/student_projects/grüne_giraffe/grüne_giraffe.html</loc>
-    <lastmod>2026-05-07T20:06:26.517Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.033Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/student_projects/roter_affe/roter_affe.html</loc>
-    <lastmod>2026-05-07T20:06:26.520Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.035Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/student_projects/gelber_ochse/gelber_ochse.html</loc>
-    <lastmod>2026-05-07T20:06:26.516Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.032Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/Facebook (WiSe2425)/student_projects/daughterlike_lowbred_moray/daughterlike_lowbred_moray.html</loc>
-    <lastmod>2026-05-07T20:06:26.501Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.017Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/Facebook (WiSe2425)/student_projects/censorious_trusting_swallowtail/censorious_trusting_swallowtail.html</loc>
-    <lastmod>2026-05-07T20:06:26.500Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/TestProjekt-2_page.html</loc>
-    <lastmod>2026-05-07T20:06:26.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html</loc>
-    <lastmod>2026-05-07T20:06:26.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html</loc>
-    <lastmod>2026-05-07T20:06:26.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/gelber_ochse/gelber_ochse.html</loc>
-    <lastmod>2026-05-07T20:06:26.527Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html</loc>
-    <lastmod>2026-05-07T20:06:26.530Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/lila_gürteltier/lila_gürteltier.html</loc>
-    <lastmod>2026-05-07T20:06:26.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/blauer_löwe/blauer_löwe.html</loc>
-    <lastmod>2026-05-07T20:06:26.526Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.016Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/Facebook (WiSe2425)/student_projects/acid_strongwilled_bug/acid_strongwilled_bug.html</loc>
-    <lastmod>2026-05-07T20:06:26.472Z</lastmod>
+    <lastmod>2026-05-07T20:29:09.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/blauer_löwe/blauer_löwe.html</loc>
+    <lastmod>2026-05-07T20:29:10.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/lila_gürteltier/lila_gürteltier.html</loc>
+    <lastmod>2026-05-07T20:29:10.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html</loc>
+    <lastmod>2026-05-07T20:29:10.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/gelber_ochse/gelber_ochse.html</loc>
+    <lastmod>2026-05-07T20:29:10.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html</loc>
+    <lastmod>2026-05-07T20:29:10.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html</loc>
+    <lastmod>2026-05-07T20:29:10.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-2/TestProjekt-2_page.html</loc>
+    <lastmod>2026-05-07T20:29:10.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://projektkurs-datascience.github.io/Projekte/projects/Facebook (WiSe2425)/student_projects/desertlike_dark_africangoldencat/desertlike_dark_africangoldencat.html</loc>
+    <lastmod>2026-05-07T20:29:10.018Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/Facebook (WiSe2425)/student_projects/bombastic_lovesick_indianpangolin/bombastic_lovesick_indianpangolin.html</loc>
-    <lastmod>2026-05-07T20:06:26.498Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.015Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/Facebook (WiSe2425)/Facebook (WiSe2425)_page.html</loc>
-    <lastmod>2026-05-07T20:06:26.445Z</lastmod>
+    <lastmod>2026-05-07T20:29:09.964Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/student_projects/pinker_panther/pinker_panther.html</loc>
-    <lastmod>2026-05-07T20:06:26.519Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.035Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/student_projects/lila_gürteltier/lila_gürteltier.html</loc>
-    <lastmod>2026-05-07T20:06:26.518Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.034Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/projects/TestProjekt-1/student_projects/blauer_löwe/blauer_löwe.html</loc>
-    <lastmod>2026-05-07T20:06:26.515Z</lastmod>
+    <lastmod>2026-05-07T20:29:10.031Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/project_archive.html</loc>
-    <lastmod>2026-05-07T20:05:01.005Z</lastmod>
+    <lastmod>2026-05-07T20:28:18.081Z</lastmod>
   </url>
   <url>
     <loc>https://projektkurs-datascience.github.io/Projekte/about.html</loc>
-    <lastmod>2026-05-07T20:05:01.005Z</lastmod>
+    <lastmod>2026-05-07T20:28:18.081Z</lastmod>
   </url>
 </urlset>
