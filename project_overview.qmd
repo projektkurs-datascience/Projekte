@@ -13,7 +13,7 @@ links:
     href: prject_archives.qmd
 ---
 
-Hier sehen sie einige Beispiele für Projekte aus den letzten Semestern.
+Hier sehen sie die Projekte aus den letzten Semestern.
 
 ::: {#actual_projects}
 :::
