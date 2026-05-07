@@ -1,0 +1,19 @@
+---
+title: "Parttime Slowmoving Rodent"
+authors:
+  - name: "barisdurmus"
+    url: "https://github.com/barisdurmus"
+  - name: "ziyangn1"
+    url: "https://github.com/ziyangn1"
+  - name: "PeterPotz"
+    url: "https://github.com/PeterPotz"
+authors_links: "[barisdurmus](https://github.com/barisdurmus), [ziyangn1](https://github.com/ziyangn1), [PeterPotz](https://github.com/PeterPotz)"
+rank: 4
+---
+**Screencast**
+
+<video controls width="100%" style="margin-bottom: 2em;"><source src="group_parttime_slowmoving_rodent_screencast.mp4" type="video/mp4"></video>
+**Ausarbeitung**
+
+<iframe src="Projekt_Facebook.html" loading="lazy" width="100%" height="1200" style="border:0"></iframe>
+

@@ -1,0 +1,18 @@
+---
+title: "Inexplosive Boyish Bats"
+authors:
+  - name: "Unknown"
+  - name: "LucaYigit"
+    url: "https://github.com/LucaYigit"
+  - name: "LeoGoeckelmann"
+    url: "https://github.com/LeoGoeckelmann"
+authors_links: "Unknown, [LucaYigit](https://github.com/LucaYigit), [LeoGoeckelmann](https://github.com/LeoGoeckelmann)"
+rank: 4
+---
+**Screencast**
+
+<video controls width="100%" style="margin-bottom: 2em;"><source src="group_inexplosive_boyish_bats_screencast.mp4" type="video/mp4"></video>
+**Ausarbeitung**
+
+<iframe src="Projekt_Facebook.html" loading="lazy" width="100%" height="1200" style="border:0"></iframe>
+

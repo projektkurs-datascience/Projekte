@@ -1,0 +1,19 @@
+---
+title: "Daughterlike Lowbred Moray"
+authors:
+  - name: "anja168"
+    url: "https://github.com/anja168"
+  - name: "LeonardRuf"
+    url: "https://github.com/LeonardRuf"
+  - name: "TobiasK534"
+    url: "https://github.com/TobiasK534"
+authors_links: "[anja168](https://github.com/anja168), [LeonardRuf](https://github.com/LeonardRuf), [TobiasK534](https://github.com/TobiasK534)"
+rank: 4
+---
+**Screencast**
+
+<video controls width="100%" style="margin-bottom: 2em;"><source src="group_daughterlike_lowbred_moray_screencast.mp4" type="video/mp4"></video>
+**Ausarbeitung**
+
+<iframe src="Projekt_Facebook.html" loading="lazy" width="100%" height="1200" style="border:0"></iframe>
+

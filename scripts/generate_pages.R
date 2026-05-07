@@ -32,6 +32,9 @@ DEFAULTS <- list(
   )
 )
 
+# Names that should NOT be linked to a GitHub profile.
+UNKNOWN_NAMES <- c("unknown", "unbekannt", "anonym", "")
+
 # ------------------------------------------------------------
 # Hilfsfunktionen
 # ------------------------------------------------------------
@@ -52,13 +55,13 @@ yaml_vec <- function(x) {
   x <- as.character(x)
   x <- x[nzchar(trimws(x))]
   if (length(x) == 0) "[]"
-  else paste0("[", paste(sprintf('"%s"', gsub('"','\\"', x, fixed = TRUE)), collapse = ", "), "]")
+  else paste0("[", paste(sprintf('"%s"', gsub('"', '\\"', x, fixed = TRUE)), collapse = ", "), "]")
 }
 
 yaml_scalar <- function(x) {
   if (is.null(x) || is.na(x) || !nzchar(trimws(as.character(x)))) return(NA_character_)
   xn <- suppressWarnings(as.numeric(x))
-  if (!is.na(xn)) as.character(xn) else sprintf('"%s"', gsub('"','\\"', as.character(x), fixed = TRUE))
+  if (!is.na(xn)) as.character(xn) else sprintf('"%s"', gsub('"', '\\"', as.character(x), fixed = TRUE))
 }
 
 clean_authors <- function(...) {
@@ -73,9 +76,59 @@ clean_authors <- function(...) {
   unique(x)
 }
 
+is_unknown_author <- function(a) {
+  tolower(trimws(a)) %in% UNKNOWN_NAMES
+}
+
+# Find a thumbnail image inside `dir`.
+# Prefers a file literally called image.* over any other image.
+find_thumbnail <- function(dir) {
+  imgs <- list.files(
+    dir,
+    pattern = "\\.(png|jpe?g|gif|webp|svg)$",
+    ignore.case = TRUE,
+    full.names = FALSE
+  )
+  if (!length(imgs)) return(NULL)
+  pref <- imgs[tolower(tools::file_path_sans_ext(imgs)) == "image"]
+  if (length(pref)) pref[1] else imgs[1]
+}
+
+# Quarto `authors:` block. Real names get a GitHub URL,
+# UNKNOWN_NAMES stay plain text (no link).
+yaml_authors_block <- function(authors) {
+  authors <- authors[nzchar(trimws(authors))]
+  if (!length(authors)) return("authors: []")
+  esc <- function(s) gsub('"', '\\"', s, fixed = TRUE)
+  lines <- "authors:"
+  for (a in authors) {
+    a <- trimws(a)
+    lines <- c(lines, sprintf('  - name: "%s"', esc(a)))
+    if (!is_unknown_author(a)) {
+      lines <- c(lines, sprintf('    url: "https://github.com/%s"', a))
+    }
+  }
+  paste(lines, collapse = "\n")
+}
+
+# Pre-built Markdown for the listing column on the project page.
+# Real names become [name](https://github.com/name); unknown names stay plain.
+authors_to_markdown_links <- function(authors) {
+  authors <- authors[nzchar(trimws(authors))]
+  if (!length(authors)) return("")
+  parts <- vapply(authors, function(a) {
+    a <- trimws(a)
+    if (is_unknown_author(a)) a
+    else sprintf("[%s](https://github.com/%s)", a, a)
+  }, character(1))
+  paste(parts, collapse = ", ")
+}
+
 # ------------------------------------------------------------
 # HTML & MP4 finden
 # ------------------------------------------------------------
+# Picks any "Projekt_*.html" (or .htm) in the student folder,
+# regardless of how the parent project folder is named.
 find_student_html <- function(sdir, project_name = NULL) {
   files <- list.files(sdir, full.names = FALSE)
   if (!length(files)) return(NULL)
@@ -175,23 +228,14 @@ generate_project_page <- function(pdir, md_df) {
   m <- read_meta(file.path(pdir, "meta.yml"))
   for (k in names(m)) meta[[k]] <- m[[k]]
   
-  img_files <- list.files(
-    pdir,
-    pattern = "\\.(png|jpe?g|gif|webp|svg)$",
-    ignore.case = TRUE,
-    full.names = FALSE
-  )
-  pref <- img_files[tolower(tools::file_path_sans_ext(img_files)) == "image"]
-  img_rel <- if (length(pref)) pref[1] else if (length(img_files)) img_files[1] else NULL
+  # Project-level thumbnail (shown in project_overview grid)
+  img_rel <- find_thumbnail(pdir)
   
   # Top-3 bestimmen
   t3_folders <- top3_student_folders(md_df)
-  t3_files   <- top3_filenames(t3_folders)  # nur Dateinamen, z.B. "gruppe_a.qmd"
-  t3_paths   <- top3_paths(t3_folders)      # Pfade für das Grid (optional nicht nötig)
+  t3_files   <- top3_filenames(t3_folders)
   
-  # YAML für die zwei Listings:
-  # 1) Grid der Top-3: sortiere nach rank und zeige max. 3 Einträge
-  # 2) Tabelle der restlichen: schließe Top-3 über 'exclude: filename: [...]' aus
+  # Listing-Blöcke ---------------------------------------------------------
   top3_block <- paste(
     "  - id: top3",
     '    contents: ["student_projects/*/*.qmd"]',
@@ -207,11 +251,11 @@ generate_project_page <- function(pdir, md_df) {
     '    contents: ["student_projects/*/*.qmd"]',
     "    type: table",
     "    sort: rank",
-    "    fields: [rank, title, authors]",
+    "    fields: [rank, title, authors_links]",
     "    field-display-names:",
     '      rank: "Rang"',
     '      title: "Ausarbeitung"',
-    '      authors: "Autor:innen"',
+    '      authors_links: "Autor:innen"',
     if (length(t3_files)) {
       paste0("    exclude:\n",
              "      filename: [",
@@ -221,6 +265,7 @@ generate_project_page <- function(pdir, md_df) {
     sep = "\n"
   )
   
+  # Front matter -----------------------------------------------------------
   front_lines <- c(
     "---",
     sprintf('title: "%s"', (m$title %||% slug_to_title(pname))),
@@ -231,7 +276,6 @@ generate_project_page <- function(pdir, md_df) {
   if (!is.null(img_rel)) {
     front_lines <- c(front_lines, sprintf('image: "%s"', img_rel))
   }
-  # description is also useful as a real listing field, not just body text:
   if (!is.null(meta$description) && nzchar(trimws(meta$description))) {
     desc_escaped <- gsub('"', '\\"', meta$description, fixed = TRUE)
     front_lines <- c(front_lines, sprintf('description: "%s"', desc_escaped))
@@ -239,18 +283,14 @@ generate_project_page <- function(pdir, md_df) {
   front_lines <- c(front_lines, "listing:", top3_block, rest_block, "---")
   front <- paste(front_lines, collapse = "\n")
   
+  # Body -------------------------------------------------------------------
+  # Description lebt jetzt im YAML (description:) und wird von Quarto
+  # automatisch unter dem Titel und in Listings angezeigt.
   body <- paste(
-    meta$description %||% "", "",
-    "## Top 3 Ausarbeitungen",
-    "",
-    "::: {#top3}",
-    ":::",
-    "",
-    "## Weitere Ausarbeitungen",
-    "",
-    "::: {#rest}",
-    ":::",
-    "",
+    "## Top 3 Ausarbeitungen", "",
+    "::: {#top3}", ":::", "",
+    "## Weitere Ausarbeitungen", "",
+    "::: {#rest}", ":::", "",
     sep = "\n"
   )
   
@@ -278,21 +318,21 @@ generate_student_page <- function(sdir, project_name, md_df) {
   
   html_rel <- find_student_html(sdir, project_name)
   mp4_rel  <- find_student_mp4(sdir)
+  img_rel  <- find_thumbnail(sdir)
   
-  img_files <- list.files(
-    sdir,
-    pattern = "\\.(png|jpe?g|gif|webp|svg)$",
-    ignore.case = TRUE,
-    full.names = FALSE
-  )
-  pref <- img_files[tolower(tools::file_path_sans_ext(img_files)) == "image"]
-  img_rel <- if (length(pref)) pref[1] else if (length(img_files)) img_files[1] else NULL
-  
+  # Front matter -----------------------------------------------------------
   front_lines <- c(
     "---",
     sprintf('title: "%s"', title),
-    sprintf("authors: %s", yaml_vec(authors))
+    yaml_authors_block(authors)
   )
+  if (length(authors)) {
+    md_links <- authors_to_markdown_links(authors)
+    md_links_escaped <- gsub('"', '\\"', md_links, fixed = TRUE)
+    # Field used by the "Weitere Ausarbeitungen" table on the project page,
+    # so the column is clickable. Non-GitHub names ("Unknown") stay plain.
+    front_lines <- c(front_lines, sprintf('authors_links: "%s"', md_links_escaped))
+  }
   if (!is.null(rank_val) && nzchar(trimws(rank_val))) {
     front_lines <- c(front_lines, paste0("rank: ", yaml_scalar(rank_val)))
   }
@@ -302,10 +342,8 @@ generate_student_page <- function(sdir, project_name, md_df) {
   front_lines <- c(front_lines, "---")
   front <- paste(front_lines, collapse = "\n")
   
-  authors_line <- if (length(authors)) paste0("Autoren: ", paste(authors, collapse = ", "), "\n") else ""
-  
+  # Body -------------------------------------------------------------------
   body <- paste(
-    #authors_line, "",
     assets_section(html_rel, mp4_rel),
     "",
     sep = "\n"
@@ -327,14 +365,8 @@ main <- function() {
   projects <- list.dirs(PROJECTS_ROOT, full.names = TRUE, recursive = FALSE)
   for (p in sort(projects)) {
     pname <- basename(p)
-    
-    # 1) Excel des Projekts lesen (für Top-3 & Team-Metadaten)
-    md_df <- read_project_metadata(p)  # NULL, falls nicht vorhanden
-    
-    # 2) Projektseite mit Grid(Top3) + Table(Rest) erzeugen
-    generate_project_page(p, md_df)
-    
-    # 3) Team-Seiten erzeugen/ergänzen
+    md_df <- read_project_metadata(p)               # NULL falls nicht vorhanden
+    generate_project_page(p, md_df)                 # Projektseite (Grid+Tabelle)
     sp_root <- file.path(p, "student_projects")
     if (dir.exists(sp_root)) {
       students <- list.dirs(sp_root, full.names = TRUE, recursive = FALSE)

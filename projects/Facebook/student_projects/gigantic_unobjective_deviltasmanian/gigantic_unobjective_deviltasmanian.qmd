@@ -1,0 +1,19 @@
+---
+title: "Gigantic Unobjective Deviltasmanian"
+authors:
+  - name: "IljaSukhanov"
+    url: "https://github.com/IljaSukhanov"
+  - name: "DavidBitdorf"
+    url: "https://github.com/DavidBitdorf"
+  - name: "svilusic"
+    url: "https://github.com/svilusic"
+authors_links: "[IljaSukhanov](https://github.com/IljaSukhanov), [DavidBitdorf](https://github.com/DavidBitdorf), [svilusic](https://github.com/svilusic)"
+rank: 4
+---
+**Screencast**
+
+<video controls width="100%" style="margin-bottom: 2em;"><source src="group_gigantic_unobjective_deviltasmanian_screencast.mp4" type="video/mp4"></video>
+**Ausarbeitung**
+
+<iframe src="Projekt_Facebook.html" loading="lazy" width="100%" height="1200" style="border:0"></iframe>
+

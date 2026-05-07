@@ -1,0 +1,18 @@
+---
+title: "Pinker Panther"
+authors:
+  - name: "Strubbelpeter"
+    url: "https://github.com/Strubbelpeter"
+  - name: "Priehl"
+    url: "https://github.com/Priehl"
+  - name: "Unknown"
+authors_links: "[Strubbelpeter](https://github.com/Strubbelpeter), [Priehl](https://github.com/Priehl), Unknown"
+rank: 2
+---
+**Screencast**
+
+<video controls width="100%" style="margin-bottom: 2em;"><source src="Screencast Projekt 3.mp4" type="video/mp4"></video>
+**Ausarbeitung**
+
+<iframe src="Projekt_Testprojekt-2.html" loading="lazy" width="100%" height="1200" style="border:0"></iframe>
+

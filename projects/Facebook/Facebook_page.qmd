@@ -1,0 +1,36 @@
+---
+title: "Facebook (WiSe 24/25)"
+type: "descriptive"
+semester: "WS 24/25"
+categories: ["Facebook"]
+image: "image.png"
+description: "Analyse von Netzwerkdaten aus Facebook und wie Personen diese Netzwerke im Job nutzen."
+listing:
+  - id: top3
+    contents: ["student_projects/*/*.qmd"]
+    type: grid
+    grid-columns: 3
+    sort: rank
+    max-items: 3
+  - id: rest
+    contents: ["student_projects/*/*.qmd"]
+    type: table
+    sort: rank
+    fields: [rank, title, authors_links]
+    field-display-names:
+      rank: "Rang"
+      title: "Ausarbeitung"
+      authors_links: "Autor:innen"
+    exclude:
+      filename: ["dumbstruck_elegant_spreadwing.qmd", "established_enervated_louse.qmd", "unchanged_airsick_loggerheadturtle.qmd"]
+---
+## Top 3 Ausarbeitungen
+
+::: {#top3}
+:::
+
+## Weitere Ausarbeitungen
+
+::: {#rest}
+:::
+

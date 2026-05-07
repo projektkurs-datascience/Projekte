@@ -1,0 +1,18 @@
+---
+title: "Heated Okay Yeti"
+authors:
+  - name: "Unknown"
+  - name: "letiziaibele"
+    url: "https://github.com/letiziaibele"
+  - name: "NiklasWetzler"
+    url: "https://github.com/NiklasWetzler"
+authors_links: "Unknown, [letiziaibele](https://github.com/letiziaibele), [NiklasWetzler](https://github.com/NiklasWetzler)"
+rank: 4
+---
+**Screencast**
+
+<video controls width="100%" style="margin-bottom: 2em;"><source src="group_heated_okay_yeti_screencast.mp4" type="video/mp4"></video>
+**Ausarbeitung**
+
+<iframe src="Projekt_Facebook.html" loading="lazy" width="100%" height="1200" style="border:0"></iframe>
+
