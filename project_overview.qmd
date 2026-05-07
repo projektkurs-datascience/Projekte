@@ -6,7 +6,7 @@ listing:
     - "projects/*/*.qmd"
   type: grid
   sort: date
-  max-items: 6
+  max-items: 20
 links:
   - text: Projektarchiv
     icon: envelope

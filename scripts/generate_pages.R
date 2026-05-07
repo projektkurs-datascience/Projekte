@@ -76,16 +76,11 @@ clean_authors <- function(...) {
 # ------------------------------------------------------------
 # HTML & MP4 finden
 # ------------------------------------------------------------
-find_student_html <- function(sdir, project_name) {
+find_student_html <- function(sdir, project_name = NULL) {
   files <- list.files(sdir, full.names = FALSE)
   if (!length(files)) return(NULL)
-  lbn <- tolower(basename(files))
-  wanted <- c(
-    paste0("projekt_", tolower(project_name), ".html"),
-    paste0("projekt_", tolower(project_name), ".htm")
-  )
-  hit <- which(lbn %in% wanted)
-  if (length(hit)) files[hit[1]] else NULL
+  hits <- grep("^projekt_.*\\.html?$", tolower(files))
+  if (length(hits)) files[hits[1]] else NULL
 }
 
 find_student_mp4 <- function(sdir) {
