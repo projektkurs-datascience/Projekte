@@ -175,6 +175,15 @@ generate_project_page <- function(pdir, md_df) {
   m <- read_meta(file.path(pdir, "meta.yml"))
   for (k in names(m)) meta[[k]] <- m[[k]]
   
+  img_files <- list.files(
+    pdir,
+    pattern = "\\.(png|jpe?g|gif|webp|svg)$",
+    ignore.case = TRUE,
+    full.names = FALSE
+  )
+  pref <- img_files[tolower(tools::file_path_sans_ext(img_files)) == "image"]
+  img_rel <- if (length(pref)) pref[1] else if (length(img_files)) img_files[1] else NULL
+  
   # Top-3 bestimmen
   t3_folders <- top3_student_folders(md_df)
   t3_files   <- top3_filenames(t3_folders)  # nur Dateinamen, z.B. "gruppe_a.qmd"
@@ -212,17 +221,23 @@ generate_project_page <- function(pdir, md_df) {
     sep = "\n"
   )
   
-  front <- paste(c(
+  front_lines <- c(
     "---",
     sprintf('title: "%s"', (m$title %||% slug_to_title(pname))),
     sprintf('type: "%s"', meta$type),
     sprintf('semester: "%s"', meta$semester),
-    sprintf("categories: %s", yaml_vec(meta$categories)),
-    "listing:",
-    top3_block,
-    rest_block,
-    "---"
-  ), collapse = "\n")
+    sprintf("categories: %s", yaml_vec(meta$categories))
+  )
+  if (!is.null(img_rel)) {
+    front_lines <- c(front_lines, sprintf('image: "%s"', img_rel))
+  }
+  # description is also useful as a real listing field, not just body text:
+  if (!is.null(meta$description) && nzchar(trimws(meta$description))) {
+    desc_escaped <- gsub('"', '\\"', meta$description, fixed = TRUE)
+    front_lines <- c(front_lines, sprintf('description: "%s"', desc_escaped))
+  }
+  front_lines <- c(front_lines, "listing:", top3_block, rest_block, "---")
+  front <- paste(front_lines, collapse = "\n")
   
   body <- paste(
     meta$description %||% "", "",
