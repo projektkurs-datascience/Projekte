@@ -279,6 +279,15 @@ generate_student_page <- function(sdir, project_name, md_df) {
   html_rel <- find_student_html(sdir, project_name)
   mp4_rel  <- find_student_mp4(sdir)
   
+  img_files <- list.files(
+    sdir,
+    pattern = "\\.(png|jpe?g|gif|webp|svg)$",
+    ignore.case = TRUE,
+    full.names = FALSE
+  )
+  pref <- img_files[tolower(tools::file_path_sans_ext(img_files)) == "image"]
+  img_rel <- if (length(pref)) pref[1] else if (length(img_files)) img_files[1] else NULL
+  
   front_lines <- c(
     "---",
     sprintf('title: "%s"', title),
@@ -286,6 +295,9 @@ generate_student_page <- function(sdir, project_name, md_df) {
   )
   if (!is.null(rank_val) && nzchar(trimws(rank_val))) {
     front_lines <- c(front_lines, paste0("rank: ", yaml_scalar(rank_val)))
+  }
+  if (!is.null(img_rel)) {
+    front_lines <- c(front_lines, sprintf('image: "%s"', img_rel))
   }
   front_lines <- c(front_lines, "---")
   front <- paste(front_lines, collapse = "\n")
