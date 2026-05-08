@@ -2,6 +2,7 @@
   {
     "listing": "/project_overview.html",
     "items": [
+      "/projects/Earnings_LLM/Earnings_LLM_page.html",
       "/projects/Facebook/Facebook_page.html",
       "/projects/Kostentransparenz/Kostentransparenz_page.html",
       "/projects/Mieten/Mieten_page.html",
@@ -46,6 +47,23 @@
     ]
   },
   {
+    "listing": "/projects/Earnings_LLM/Earnings_LLM_page.html",
+    "items": [
+      "/projects/Earnings_LLM/student_projects/cowlike_blushing_catbird/cowlike_blushing_catbird.html",
+      "/projects/Earnings_LLM/student_projects/ghoulish_repunishable_pekingese/ghoulish_repunishable_pekingese.html",
+      "/projects/Earnings_LLM/student_projects/polluted_courteous_blowfish/polluted_courteous_blowfish.html",
+      "/projects/Earnings_LLM/student_projects/unafraid_dependent_siberiantiger/unafraid_dependent_siberiantiger.html",
+      "/projects/Earnings_LLM/student_projects/capable_seagreen_lamprey/capable_seagreen_lamprey.html",
+      "/projects/Earnings_LLM/student_projects/graceless_nightmarish_gangesdolphin/graceless_nightmarish_gangesdolphin.html",
+      "/projects/Earnings_LLM/student_projects/ironhanded_pessimistic_nutcracker/ironhanded_pessimistic_nutcracker.html",
+      "/projects/Earnings_LLM/student_projects/medical_supersonic_xuanhuasaurus/medical_supersonic_xuanhuasaurus.html",
+      "/projects/Earnings_LLM/student_projects/objective_teeny_americansaddlebred/objective_teeny_americansaddlebred.html",
+      "/projects/Earnings_LLM/student_projects/unconstant_polysyllabic_chickadee/unconstant_polysyllabic_chickadee.html",
+      "/projects/Earnings_LLM/student_projects/unlikely_commiserable_arabianwildcat/unlikely_commiserable_arabianwildcat.html",
+      "/projects/Earnings_LLM/student_projects/venomous_subalgebraic_uromastyxmaliensis/venomous_subalgebraic_uromastyxmaliensis.html"
+    ]
+  },
+  {
     "listing": "/projects/TestProjekt-2/TestProjekt-2_page.html",
     "items": [
       "/projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html",
@@ -82,6 +100,7 @@
   {
     "listing": "/project_archive.html",
     "items": [
+      "/projects/Earnings_LLM/Earnings_LLM_page.html",
       "/projects/Kostentransparenz/Kostentransparenz_page.html",
       "/projects/TestProjekt-2/TestProjekt-2_page.html",
       "/projects/Facebook/Facebook_page.html",
