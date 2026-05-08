@@ -3,8 +3,29 @@
     "listing": "/project_overview.html",
     "items": [
       "/projects/Facebook/Facebook_page.html",
+      "/projects/Kostentransparenz/Kostentransparenz_page.html",
       "/projects/Mieten/Mieten_page.html",
       "/projects/TestProjekt-2/TestProjekt-2_page.html"
+    ]
+  },
+  {
+    "listing": "/projects/Kostentransparenz/Kostentransparenz_page.html",
+    "items": [
+      "/projects/Kostentransparenz/student_projects/anachronic_dassierat/anachronic_dassierat.html",
+      "/projects/Kostentransparenz/student_projects/reponsible_herculesbeetle/reponsible_herculesbeetle.html",
+      "/projects/Kostentransparenz/student_projects/unanarchic_sanderling/unanarchic_sanderling.html",
+      "/projects/Kostentransparenz/student_projects/acute_dragonfly/acute_dragonfly.html",
+      "/projects/Kostentransparenz/student_projects/ageold_nighthawk/ageold_nighthawk.html",
+      "/projects/Kostentransparenz/student_projects/anorthosite_fawn/anorthosite_fawn.html",
+      "/projects/Kostentransparenz/student_projects/authorized_thylacine/authorized_thylacine.html",
+      "/projects/Kostentransparenz/student_projects/brown_iberianbarbel/brown_iberianbarbel.html",
+      "/projects/Kostentransparenz/student_projects/cardiotonic_kestrel/cardiotonic_kestrel.html",
+      "/projects/Kostentransparenz/student_projects/employable_aurochs/employable_aurochs.html",
+      "/projects/Kostentransparenz/student_projects/fruitful_kagu/fruitful_kagu.html",
+      "/projects/Kostentransparenz/student_projects/helpful_eider/helpful_eider.html",
+      "/projects/Kostentransparenz/student_projects/jewel_nematode/jewel_nematode.html",
+      "/projects/Kostentransparenz/student_projects/melissophobic_angwantibo/melissophobic_angwantibo.html",
+      "/projects/Kostentransparenz/student_projects/supersweet_queensnake/supersweet_queensnake.html"
     ]
   },
   {
@@ -14,14 +35,14 @@
       "/projects/Mieten/student_projects/ethologic_dachshund/ethologic_dachshund.html",
       "/projects/Mieten/student_projects/libertarian_ibizanhound/libertarian_ibizanhound.html",
       "/projects/Mieten/student_projects/acute_thylacine/acute_thylacine.html",
+      "/projects/Mieten/student_projects/authorized_collardlizard/authorized_collardlizard.html",
+      "/projects/Mieten/student_projects/brown_wobbegongshark/brown_wobbegongshark.html",
       "/projects/Mieten/student_projects/californium_teal/californium_teal.html",
       "/projects/Mieten/student_projects/cindery_minibeast/cindery_minibeast.html",
       "/projects/Mieten/student_projects/employable_sanderling/employable_sanderling.html",
       "/projects/Mieten/student_projects/fruitful_guineafowl/fruitful_guineafowl.html",
       "/projects/Mieten/student_projects/liquid_bobolink/liquid_bobolink.html",
-      "/projects/Mieten/student_projects/supersweet_barnowl/supersweet_barnowl.html",
-      "/projects/Mieten/student_projects/authorized_collardlizard/authorized_collardlizard.html",
-      "/projects/Mieten/student_projects/brown_wobbegongshark/brown_wobbegongshark.html"
+      "/projects/Mieten/student_projects/supersweet_barnowl/supersweet_barnowl.html"
     ]
   },
   {
@@ -61,6 +82,7 @@
   {
     "listing": "/project_archive.html",
     "items": [
+      "/projects/Kostentransparenz/Kostentransparenz_page.html",
       "/projects/TestProjekt-2/TestProjekt-2_page.html",
       "/projects/Facebook/Facebook_page.html",
       "/projects/Mieten/Mieten_page.html"
