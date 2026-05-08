@@ -1,0 +1,5 @@
+type: "inference"
+semester: "SoSe 25"
+categories: ["Earnings Conference Call", "Eventstudie", "LLM", "API"]
+title: "Earnings Call mit LLMs (SoSe 25)"
+description: "Analyse des Effekts der Stimmung in Earnings Calls auf den Aktienkurs des Unternehmens."
