@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+Der Projektkurs Data Science & Business Analytics ist ein Pflichtmodul im Bachelor Wirtschaftswissenschaften, Bachelor Wirtschaftsmathematik und Bachelor Business Management und Digitale Transformation an der Universität Ulm.
 
-```{r}
-1 + 1
-```
+Die Studierenden erstellen selbstständig in jedem Semester zwei Projekte, die wir hier veröffentlichen.
+
+Die Dozierenden des Kurses sind [Alexander Rieber](https://github.com/AlexRieber) und [Dennis Steinle](https://github.com/DennisSteinle)

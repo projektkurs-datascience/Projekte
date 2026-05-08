@@ -2,7 +2,4 @@
 title: "Projektkurs Data Science & Business Analytics"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
+Auf dieser Seite veröffentlichen wir die Projekte aus den letzten Semestern des [Projektkurs Data Science & Business Analytics](https://github.com/projektkurs-datascience) an der Universität Ulm.
