@@ -6,7 +6,7 @@
       "/projects/Facebook/Facebook_page.html",
       "/projects/Kostentransparenz/Kostentransparenz_page.html",
       "/projects/Mieten/Mieten_page.html",
-      "/projects/TestProjekt-2/TestProjekt-2_page.html"
+      "/projects/Subventionen/Subventionen_page.html"
     ]
   },
   {
@@ -47,6 +47,32 @@
     ]
   },
   {
+    "listing": "/projects/Subventionen/Subventionen_page.html",
+    "items": [
+      "/projects/Subventionen/student_projects/shakespearean_beauceron/shakespearean_beauceron.html",
+      "/projects/Subventionen/student_projects/vile_ankolewatusi/vile_ankolewatusi.html",
+      "/projects/Subventionen/student_projects/western_douglasfirbarkbeetle/western_douglasfirbarkbeetle.html",
+      "/projects/Subventionen/student_projects/adventureful_polarbear/adventureful_polarbear.html",
+      "/projects/Subventionen/student_projects/blamable_coney/blamable_coney.html",
+      "/projects/Subventionen/student_projects/cosmonautic_asianconstablebutterfly/cosmonautic_asianconstablebutterfly.html",
+      "/projects/Subventionen/student_projects/curious_frenchbulldog/curious_frenchbulldog.html",
+      "/projects/Subventionen/student_projects/dazed_icelandichorse/dazed_icelandichorse.html",
+      "/projects/Subventionen/student_projects/despiteful_madagascarhissingroach/despiteful_madagascarhissingroach.html",
+      "/projects/Subventionen/student_projects/droopy_harrierhawk/droopy_harrierhawk.html",
+      "/projects/Subventionen/student_projects/ethologic_arcticfox/ethologic_arcticfox.html",
+      "/projects/Subventionen/student_projects/fattening_cock/fattening_cock.html",
+      "/projects/Subventionen/student_projects/hyperromantic_mole/hyperromantic_mole.html",
+      "/projects/Subventionen/student_projects/intellectual_horse/intellectual_horse.html",
+      "/projects/Subventionen/student_projects/libertarian_walkingstick/libertarian_walkingstick.html",
+      "/projects/Subventionen/student_projects/monarchal_stinkpot/monarchal_stinkpot.html",
+      "/projects/Subventionen/student_projects/sacred_janenschia/sacred_janenschia.html",
+      "/projects/Subventionen/student_projects/unawake_amethystsunbird/unawake_amethystsunbird.html",
+      "/projects/Subventionen/student_projects/underprivileged_prayingmantid/underprivileged_prayingmantid.html",
+      "/projects/Subventionen/student_projects/upperclass_baboon/upperclass_baboon.html",
+      "/projects/Subventionen/student_projects/wellcoloured_arcticwolf/wellcoloured_arcticwolf.html"
+    ]
+  },
+  {
     "listing": "/projects/Earnings_LLM/Earnings_LLM_page.html",
     "items": [
       "/projects/Earnings_LLM/student_projects/cowlike_blushing_catbird/cowlike_blushing_catbird.html",
@@ -61,17 +87,6 @@
       "/projects/Earnings_LLM/student_projects/unconstant_polysyllabic_chickadee/unconstant_polysyllabic_chickadee.html",
       "/projects/Earnings_LLM/student_projects/unlikely_commiserable_arabianwildcat/unlikely_commiserable_arabianwildcat.html",
       "/projects/Earnings_LLM/student_projects/venomous_subalgebraic_uromastyxmaliensis/venomous_subalgebraic_uromastyxmaliensis.html"
-    ]
-  },
-  {
-    "listing": "/projects/TestProjekt-2/TestProjekt-2_page.html",
-    "items": [
-      "/projects/TestProjekt-2/student_projects/roter_affe/roter_affe.html",
-      "/projects/TestProjekt-2/student_projects/pinker_panther/pinker_panther.html",
-      "/projects/TestProjekt-2/student_projects/lila_gürteltier/lila_gürteltier.html",
-      "/projects/TestProjekt-2/student_projects/grüne_giraffe/grüne_giraffe.html",
-      "/projects/TestProjekt-2/student_projects/gelber_ochse/gelber_ochse.html",
-      "/projects/TestProjekt-2/student_projects/blauer_löwe/blauer_löwe.html"
     ]
   },
   {
@@ -102,9 +117,9 @@
     "items": [
       "/projects/Earnings_LLM/Earnings_LLM_page.html",
       "/projects/Kostentransparenz/Kostentransparenz_page.html",
-      "/projects/TestProjekt-2/TestProjekt-2_page.html",
       "/projects/Facebook/Facebook_page.html",
-      "/projects/Mieten/Mieten_page.html"
+      "/projects/Mieten/Mieten_page.html",
+      "/projects/Subventionen/Subventionen_page.html"
     ]
   }
 ]
