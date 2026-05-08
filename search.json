@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Projektkurs Data Science & Business Analytics",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Auf dieser Seite veröffentlichen wir die Projekte aus den letzten Semestern des Projektkurs Data Science & Business Analytics an der Universität Ulm."
   },
   {
     "objectID": "project_overview.html",
@@ -676,6 +676,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Der Projektkurs Data Science & Business Analytics ist ein Pflichtmodul im Bachelor Wirtschaftswissenschaften, Bachelor Wirtschaftsmathematik und Bachelor Business Management und Digitale Transformation an der Universität Ulm.\nDie Studierenden erstellen selbstständig in jedem Semester zwei Projekte, die wir hier veröffentlichen.\nDie Dozierenden des Kurses sind Alexander Rieber und Dennis Steinle"
   }
 ]
